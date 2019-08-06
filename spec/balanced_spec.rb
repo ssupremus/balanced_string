@@ -44,7 +44,7 @@ describe "Class method .balanced?" do
 
   context 'when we have different brackets as incoming params' do
     it "empty string should be true" do
-      expect(balanced?("")).to be_truthy
+      expect(balanced?("")).to be true
     end
 
     it "[()]{}{[()()]()} should be true" do
