@@ -1,4 +1,4 @@
-  def matched?(a, b)
+def matched?(a, b)
   (a == '[' && b == ']') || (a == '{' && b == '}') || (a == '(' && b == ')')
 end
 
